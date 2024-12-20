@@ -8,6 +8,8 @@ from langchain.schema import Document
 from langchain.memory import ConversationBufferWindowMemory
 import streamlit as st
 
+st.set_page_config(layout="wide")
+
 ef = BGEM3EmbeddingFunction(use_fp16=False, device="cpu")
 
 def BGEM3_Embedding_dense(text):
