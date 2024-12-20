@@ -60,7 +60,7 @@ def search(collection, input_vector1, input_vector2):
     return results
 
 def main():
-    st.title("Law Bot")
+    st.title("Changai Airlines Chatbot")
 
     if "messages" not in st.session_state:
         st.session_state.messages = []
